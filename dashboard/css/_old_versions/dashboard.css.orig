@@ -1,0 +1,26 @@
+
+/* Styles specific to the Dashboard Application */
+
+body
+{
+/*	background: url(/dashboard/images/dashboard_bg.png); 
+	background-color: transparent;*/
+	background-color: white;
+	margin: 0 0 15px 0;
+	font-family: Verdana, Arial, sans-serif;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 { margin: 0px; padding: 0px; }
+
+td.vmiddle { padding: 2px; vertical-align: middle; }
+
+td.vbottom { padding: 2px; vertical-align: bottom; }
+
+table.home_maintable {
+	position:relative;
+	width: 902px;
+	height: 700px;
+	padding: 0px;
+	background-color: #fff;
+}

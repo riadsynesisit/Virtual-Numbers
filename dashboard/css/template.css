@@ -1,0 +1,253 @@
+/* CSS Document */
+Body{ margin:0px; padding:0px; background:url(../images/main-bg.jpg) repeat; font-family:Arial, Helvetica, sans-serif; color:#5a5a5a; font-size:12px;}
+
+
+@font-face {
+	font-family: 'Conv_MYRIADPRO-REGULAR';
+	src: url('../fonts/MYRIADPRO-REGULAR.eot');
+	src: url('../fonts/MYRIADPRO-REGULAR.woff') format('woff'), url('../fonts/MYRIADPRO-REGULAR.ttf') format('truetype'), url('../fonts/MYRIADPRO-REGULAR.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+*{ outline:none;}
+p{ margin:10px 0;}
+img{ border:none;}
+ul{ margin:0px; padding:0px;}
+li{ margin:10px 0;}
+h1{font-size:26px; color:#545454; margin:0px; font-weight:normal; line-height:53px; padding-left:22px; font-family: 'Conv_MYRIADPRO-REGULAR';}
+h2{font-weight:normal; color:#3f3f3f; font-size:24px; font-family: 'Conv_MYRIADPRO-REGULAR';}
+h3{}
+h4{}
+h5{}
+a{ color:#087ba2; text-decoration:none;}
+a:hover{ color:#000000;}
+
+form{ margin:0px; padding:0px;}
+input{ font-family:Arial, Helvetica, sans-serif;}
+
+
+/* =================== Header css start here ========================= */
+#header{ height:103px; width:100%; background:url(../images/header-bg.jpg) repeat-x top center;}
+.header-inner{ width:980px; margin:auto;}
+.logo{ float:left;}
+.logo img{ margin:8px 0;}
+
+.login-box-outer{ float:right; margin-bottom:-19px; margin-right:-7px;}
+.login-box{ background:url(../images/top-login-right-shadow.png) right bottom no-repeat; height:87px; padding-right:8px; min-width:209px;}
+.login-box-inner{ background:url(../images/top-login-left-shadow.png) left bottom no-repeat; padding-left:7px; height:87px;}
+.login-box-mid{ background:url(../images/login-box-mid.jpg) repeat-x bottom center; height:72px; padding:9px 15px; font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#6d6d6d; line-height:19px; margin:0 -1px;}
+.login-box-mid span{color:#0c97c3; font-size:16px;}
+.login-box-mid b{ font-size:16px;}
+.logged-button{ background:url(../images/top-logout-btn.png) no-repeat; width:52px; height:20px; border:none; text-align:center; font-size:11px; color:#fefefe; padding:0 0 2px 0; cursor:pointer;}
+.logged-button:hover{ color:#000000;}
+
+.menu-outer{ clear:both;}
+.main-menu{ font-family:Arial, Helvetica, sans-serif; font-size:11px;}
+.main-menu li{ list-style:none; float:left; background:url(../images/menu-dvd.jpg) left center no-repeat; padding:0 11px; margin:0px; line-height:29px;}
+.main-menu li.first{ background:none; padding-left:0px;}
+.main-menu li a{ color:#494949;}
+.main-menu li a:hover{ color:#087ba2;}
+.main-menu li a.active{ color:#087ba2;}
+/* =================== Header css end here ========================= */
+
+#wrapper{ width:100%; background:url(../images/wrapper-shadow-bg.png) repeat-x top center;}
+.wrapper-inner{ width:980px; margin:auto; padding:15px 0;}
+
+.top-round-bg{ background:url(../images/top-round-bg.png) no-repeat; width:985px; margin:0 -2px; padding-top:17px; float:left;}
+.top-bottom-bg{ background:url(../images/bottom-round-bg.png) no-repeat; width:985px; padding-bottom:17px; margin:0 -2px; float:left;}
+.top-mid-bg{ background:url(../images/mid-blue-bg.png) repeat-y; width:985px; float:left;}
+
+
+.top-round-bg2{ background:url(../images/top-round-bg2.png) no-repeat; width:985px; margin:0 -2px; padding-top:17px; float:left;}
+.top-bottom-bg2{ background:url(../images/bottom-round-bg2.png) no-repeat; width:985px; padding-bottom:17px; margin:0 -2px; float:left;}
+.top-mid-bg2{ background:url(../images/mid-blue-bg2.png) repeat-y; width:985px; float:left;}
+
+/* =================== Left section css start here ========================= */
+#left-section{ width:229px; padding:5px 0 5px 0; float:left;}
+
+.green-tab{ width:230px; float:left;}
+.green-tab h3{
+background:url(../images/green-tab-left.png) no-repeat; width:219px; height:39px; padding:11px 0 0 23px; margin: -3px 0 -7px -4px; font-size:21px; font-weight:normal; 
+color:#FFFFFF; text-shadow:1px 1px 1px #a4b19a; position:relative;}
+.green-tab ul{ background:url(../images/left-menu-blue-bg.jpg) repeat-y right center #0f6590; width:226px; float:right;}
+.green-tab ul li{ list-style:none; background:url(../images/left-menu-li-bg.jpg) repeat-x top center; height:33px; margin:0px; padding-left:20px;}
+.green-tab ul li:hover{ background:url(../images/left-menu-li-hover.jpg) repeat-y right center #199ac5; cursor:pointer;}
+.green-tab ul li a{ color:#FFFFFF; text-shadow:1px 1px 1px #74787a; line-height:33px; font-size:14px;}
+.green-tab ul li.active{ background:url(../images/left-menu-li-hover.jpg) repeat-y right center #199ac5;}
+
+.green-tab ul li span{ float:left; width:200px; line-height:33px;}
+
+
+.sticky-points-outer{ padding:19px; background:url(../images/left-ul-top-bg.jpg) repeat-x bottom center; float:right; width:184px; margin-right:5px;}
+.sticky-points{ font-size:12px; color:#d0f2fd; }
+.sticky-points .title{ font-size:14px; color:#FFFFFF; font-weight:bold; padding-bottom:10px;}
+
+/* =================== Left section css end here ========================= */
+
+
+
+/* =============================== Right Content css start here ======================== */
+#center-wrapper{ width:718px; float:left; margin:5px 18px 5px 18px; background:url(../images/botton-inner-bg.jpg) no-repeat bottom center; padding-bottom:0px;}
+.title-bg{ background:url(../images/title-round-bg.jpg) no-repeat top center; width:718px; height:53px;}
+
+.mid-section{ background:url(../images/mid-section-bg.jpg) repeat-x bottom center #fff; border-left:1px solid #07799e; border-right:1px solid #07799e; float:left; min-height:450px;}
+
+#center-wrapper2{ width:948px; float:left; margin:5px 18px 5px 18px; background:url(../images/botton-inner-bg2.jpg) no-repeat bottom left; padding-bottom:9px;}
+.title-bg2{ background:url(../images/title-round-bg2.jpg) no-repeat top left; width:947px; height:53px;}
+.mid-section2{ background:url(../images/mid-section-bg.jpg) repeat-x bottom left #fff; border-left:1px solid #07799e; border-right:1px solid #07799e; min-height:450px;}
+
+.date-bar2{ background:url(../images/date-btm-shadow.jpg) repeat-x bottom center; padding:0 15px 6px 21px; height:36px; width:910px; margin-bottom:-5px;}
+.date-bar2 .left-info{ float:left; font-size:11px; color:#666666; line-height:35px;}
+.date-bar2 .left-info b{ color:#5a5a5a; font-size:14px;}
+.date-bar2 ul{ float:right;}
+.date-bar2 ul li{ float:left; list-style:none; margin:10px 0 0px 10px;}
+
+
+.date-bar{ background:url(../images/date-btm-shadow.jpg) repeat-x bottom center; padding:0 15px 6px 21px; height:36px; width:680px; margin-bottom:-5px;}
+.date-bar .left-info{ float:left; font-size:11px; color:#666666; line-height:35px;}
+.date-bar .left-info b{ color:#5a5a5a; font-size:14px;}
+.date-bar .left-info a b{color:#087BA2;}
+.date-bar .left-info a:hover b{ color:#000000;}
+
+.date-bar ul{ float:right;}
+.date-bar ul li{ float:left; list-style:none; margin:10px 0 0px 10px;}
+
+.login-tracker{ border-left:1px solid #ebebeb; border-top:1px solid #ebebeb; font-size:14px;}
+.login-tracker td{border-right:1px solid #ebebeb; border-bottom:1px solid #ebebeb; padding-left:21px;}
+.login-tracker span{ color:#087ba2;}
+
+.modify-details{ border-left:1px solid #ebebeb; border-top:1px solid #ebebeb; font-size:12px;}
+.modify-details td{border-right:1px solid #ebebeb; border-bottom:1px solid #ebebeb; padding-left:21px;}
+.modify-details span{ color:#087ba2;}
+
+
+.configure-number{ border-left:1px solid #ebebeb; border-top:1px solid #ebebeb; font-size:12px;}
+.configure-number td{border-right:1px solid #ebebeb; border-bottom:1px solid #ebebeb; padding-left:28px;}
+.configure-number span{ color:#087ba2;}
+.configure-number span.madatory{ color:#ba0101; margin-left:7px; float:right; margin-right:3px;}
+.continue-btn{ background:url(../images/continue-btn.png) no-repeat top; width:79px; height:27px; text-align:center; color:#FFFFFF; cursor:pointer; font-size:14px; border:none; padding-bottom:2px;}
+.continue-btn:hover{ color:#000000;}
+
+.select-country{ width:193px; height:23px; color:#5a5a5a; font-size:12px; padding:1px; border:1px solid #dddddd;}
+.destination-number{border:1px solid #dddddd; width:182px; height:21px; padding:0 4px;}
+.ring-tone{border:1px solid #dddddd; width:107px; height:23px; font-size:12px; color:#5a5a5a; padding:1px 1px 1px 4px;}
+
+.info{ font-size:12px; color:#5a5a5a; line-height:30px; padding-left:39%;}
+.info-records{ font-size:12px; color:#5a5a5a; line-height:30px; text-align:center;}
+
+.content{ padding:0 21px; line-height:18px;}
+.confirmation-content{padding:10px 21px; line-height:18px;}
+
+.notice-box{ padding:10px; border:1px solid #e0e0e0;}
+.notice-box span{ color:#919191;}
+.notice-box2{ margin:20px 0; font-size:14px; line-height:22px;}
+.notice-box2 span{ color:#919191;}
+
+.system-links{border-top:1px solid #e0e0e0; padding:5px 21px;}
+.system-links ul{}
+.system-links li{ list-style:none; margin:8px 0;}
+.system-links li a{ text-decoration:underline; color:#0e7ea5;}
+.system-links li a:hover{ color:#000000;}
+
+.blue-btn{ background:url(../images/blue-btn-right.png) no-repeat left; padding-left:7px; height:27px;}
+.blue-btn a{ background:url(../images/blue-btn-left.png) no-repeat right top; padding:6px 10px 6px 3px; color:#FFFFFF; line-height:27px; font-size:14px;}
+.blue-btn a:hover{ color:#000000;}
+
+.call-recording{ border-left:1px solid #ebebeb; border-top:1px solid #ebebeb; font-size:12px;}
+.call-recording td{border-right:1px solid #ebebeb; border-bottom:1px solid #ebebeb; padding-left:20px;}
+.call-recording span{ color:#087ba2;}
+.call-recording .title{ font-weight:bold;}
+
+.my-call-recording{ border-left:1px solid #ebebeb; border-top:1px solid #ebebeb; font-size:12px;}
+.my-call-recording td{border-right:1px solid #ebebeb; border-bottom:1px solid #ebebeb; padding-left:20px;}
+.my-call-recording span{ color:#087ba2;}
+.my-call-recording .title{ font-weight:bold;}
+
+.edit-number-routes{ border-left:1px solid #ebebeb; border-top:1px solid #ebebeb; font-size:12px;}
+.edit-number-routes td{border-right:1px solid #ebebeb; border-bottom:1px solid #ebebeb; padding-left:20px;}
+.edit-number-routes span{ color:#087ba2;}
+.edit-number-routes .title{ font-weight:bold;}
+.edit{ background:url(../images/edit-btn.jpg) no-repeat; color:#FFFFFF; text-align:center; padding:3px 9px; cursor:pointer;}
+.delete{ background:url(../images/delete-btn.jpg) no-repeat; color:#FFFFFF; text-align:center; padding:3px 8px; cursor:pointer; margin-left:10px;}
+
+.update-details{ border-left:1px solid #ebebeb; border-top:1px solid #ebebeb; font-size:12px;}
+.update-details td{border-right:1px solid #ebebeb; border-bottom:1px solid #ebebeb; padding-left:21px;}
+.update-details td.border-none{ border-right:none;}
+.update-details span{ color:#BA0101; float:left; margin-left:7px;}
+.update-input{ border:1px solid #dddddd; float:left; font-size:12px; color:#5a5a5a; padding:4px 4px; width:170px;}
+
+.configure-number td{ line-height:19px;}
+.configure-number .radio{ float:left;}
+.add-number{}
+.add-number ul{}
+.add-number li{ line-height:18px; margin:0 0 20px 0;}
+.add-number li span{ color:#0387b2;}
+
+
+.voice-mail{ border-left:1px solid #ebebeb; border-top:1px solid #ebebeb; font-size:12px;}
+.voice-mail td{border-right:1px solid #ebebeb; border-bottom:1px solid #ebebeb; padding-left:21px;}
+.voice-mail span{ color:#087ba2;}
+.select-status{ padding:10px 21px; text-align:right; height:27px;}
+.activate-btn{ background:url(../images/activate-button.png) no-repeat; width:69px; height:27px; color:#fff; text-align:center; border:none; padding:0 0 2px 0; cursor:pointer;}
+.activate-btn:hover{ color:#000000;}
+.deactivate-btn{ background:url(../images/deactivate-button.png) no-repeat; width:80px; height:27px; color:#fff; text-align:center; border:none; padding:0 0 2px 0; cursor:pointer; margin-left:10px;}
+.deactivate-btn:hover{ color:#000000;}
+.voice-mail td{ line-height:20px; padding-left:16px; padding-right:16px;}
+/* =============================== Right Content css end here ======================== */
+
+
+/* =================== Footer css start here ========================= */
+
+.footer-shadow{ background:url(../images/footer-shadow.png) no-repeat bottom center; height:22px; width:100%; clear:both;}
+#footer{ background:#c7e6ec; border-top:1px solid #ffffff; border-bottom:1px solid #ffffff; clear:both;}
+.footer-inner{ width:980px; margin:auto; min-height:174px;}
+.footer-inner h2{ margin:10px 0;}
+
+.update-box{  width:267px; height:174px; float:left; background:url(../images/btm-shadow-dvd.png) no-repeat top right; padding-left:5px;}
+.input-box{ background:url(../images/input-bg.jpg) repeat-x top center; border:1px solid #b9d9df; width:176px; height:21px; margin-bottom:14px; font-size:12px; color:#9e9e9e; padding:1px 5px 0;}
+.submit-btn{ background:url(../images/submit-btn.png) no-repeat; width:69px; height:27px; text-align:center; font-size:12px; font-weight:bold; border:none; color:#FFFFFF; padding-bottom:2px; cursor:pointer;}
+.submit-btn:hover{ color:#000000;}
+
+.quick-links{width:282px; height:174px; padding-left:66px; float:left; background:url(../images/btm-shadow-dvd.png) no-repeat top right;}
+.quick-links ul{ float:left; width:121px;}
+.quick-links li{ list-style:none; margin:0 0 10px 0;}
+.quick-links li a{font-family:arial; font-size:12px; color:#2c2c2c;}
+.quick-links li a:hover {color:#087ba2;}
+
+.contact-info{width:290px; height:174px; padding-left:66px; float:left; font-size:12px; color:#2c2c2c;}
+.contact-info a{ color:#2c2c2c;}
+.contact-info a:hover{ color:#087BA2;}
+
+/* =================== Footer css end here ========================= */
+
+/* =================== Copyright css start here ========================= */
+.copyright{ width:100%; font-family:arial; font-size:12px; color:#37393a; text-align:center; background:#bcdae0; border-top:1px solid #96cfda; padding:10px 0;}
+.virtual{ background:#facacc; padding:5px 5px 5px 10px; margin:0 0 15px 0;}
+
+
+.tip_box
+{ 
+	padding: 10px 15px;
+	background: #FDFFC0;
+	border: 1px dotted #999;
+	color: #666;
+	margin-bottom: 15px;
+}
+
+.index_alerts
+{ 
+	padding: 10px 15px;
+	color: #666;
+	margin-bottom: 15px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.logged-button{ padding-bottom:0px;}
+.date-bar .left-info{ line-height:37px;}
+.activate-btn{padding-bottom:0px;}
+.deactivate-btn{padding-bottom:0px;}
+.blue-btn a{ line-height:28px;}
+}

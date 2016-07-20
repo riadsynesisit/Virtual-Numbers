@@ -1,0 +1,13 @@
+/* CSS Document */
+
+.logged-button{ padding-bottom:0px;}
+.main-menu li{ line-height:30px;}
+.green-tab h3{ padding-top:12px; margin: -3px 0 -8px -4px;}
+
+.continue-btn{ height:28px; cursor:pointer; font-size:14px; border:none; padding-bottom:2px;}
+.deactivate-btn{ padding-bottom:0px;}
+.activate-btn{ padding-bottom:0px;}
+.submit-btn{ padding-bottom:0px;}
+.date-bar .left-info{ line-height:37px;}
+
+.update-box input{ line-height:22px;}

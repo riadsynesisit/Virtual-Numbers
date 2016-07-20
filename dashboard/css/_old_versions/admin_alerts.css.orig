@@ -1,0 +1,17 @@
+/* additional integration changes */
+
+.status_red { background-color: #BD0D0D; color: white; font-variant: small-caps; }
+.status_yellow { background-color: yellow; color: black; font-variant: small-caps; }
+.status_orange { background-color: orange; color: black; font-variant: small-caps; }
+.status_blue { background-color: blue; color: white; font-variant: small-caps; }
+.status_green { background-color: #093; color: white; font-variant: small-caps; }
+
+.warning 
+{ 
+	background-color: #BD0D0D; 
+	color: white; 
+	font-variant: small-caps;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: rgb(10,10,10) 2px 2px 2px;
+}

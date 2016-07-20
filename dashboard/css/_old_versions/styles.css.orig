@@ -1,0 +1,412 @@
+/********************************************************************
+  Crazy Styles
+********************************************************************/
+
+#footer_container { margin-top: 0 !important }
+
+td, th, tr { vertical-align: middle !important; }
+
+body { margin: 0px; padding-bottom: 40px; font: 11px/15px Verdana, Geneva, sans-serif; color: #666; text-align: left 
+!important; }
+
+.text_style3 a:link, .text_style3 a:visited { font: bold 12px/15px Arial, Helvetica, sans-serif !important; 
+text-decoration: underline; }
+
+.logout_button, .logout_button:visited { background:url(/dashboard/images/logout_bg.png) no-repeat; display:block; 
+float:right; font-weight:bold !important; height:25px; line-height:25px; text-align:center; text-decoration:none; 
+width:65px; margin-top: -52px; font-family: Arial, Helvetica, sans-serif !important; }
+
+.logout_button:hover { background-position: bottom; color: #2F3958 !important; text-decoration: none; }
+
+h4 { margin-bottom: 15px !important; }
+
+h4.dd_sub { font-size:11px; font-weight:bold; margin-bottom: 0px !important; }
+
+#drop_down_container a:link, #drop_down_container a:visited { text-align: left !important; }
+
+table.member_left_table, table.member_left_table_gray { width: 200px; margin: 20px 0 0px; padding: 0px; }
+
+table.member_left_table_gray { margin-top: 0 !important; }
+
+table.member_left_table_gray .title_th { background: #F8F8F8 url(/dashboard/images/top_light_gray_rounded.png) top 
+no-repeat; font-weight: bold; text-indent: 20px; font-size: 13px; color: #888; text-align: left; height: 30px; height: 
+28px \9 }
+
+.table_style2 th a:link, .table_style2 th a:visited { color: #FFF; font-weight: bold; font-family: Arial, Helvetica, 
+sans-serif; text-decoration: underline !important; }
+
+a.link_style3, a.link_style3:link, a.link_style3:visited { display: block; text-decoration: none !important; }
+
+table.member_internal_table { width: 882px; margin: 25px auto; }
+
+.footer_grey_col a.footer_sub_link:link, .footer_grey_col a.footer_sub_link:visited { text-align: left !important; display: block; height: 1px; }
+
+.footer_grey_col2 a.footer_sub_link:link, .footer_grey_col2 a.footer_sub_link:visited { text-align: left !important; display: block; height: 1px; }
+
+.footer_grey_col_last a.footer_sub_link:link, .footer_grey_col_last a.footer_sub_link:visited { text-align: left !important; display: block; height: 1px; }
+
+.footer_nav li, .footer_nav li a { text-align: left !important; }
+
+
+
+/*******************************************************************************
+	Form Validation
+*******************************************************************************/
+
+tr.form_validation_error input[type=text], tr.form_validation_errorinput[type=password], tr.form_validation_error select, tr.form_validation_error textarea, input[type=text].form_validation_error,input[type=password].form_validation_error {	border:1px solid red !important; }
+
+.table_style2 input[type="text"], .table_style2 input[type="password"] { border: 1px solid #CCC; height: 16px; }
+
+.table_style2 select {
+	border: 1px solid #CCC;
+}
+
+
+
+/*******************************************************************************
+	CVV Box
+*******************************************************************************/
+
+#cvv_box  { cursor: pointer; left: 275px;  top: 232px; margin-top: -241px; margin-left: -270px; position: relative; float: left; background-image: url(/dashboard/images/cvv_box.png); display: block; width: 270px; height: 241px;}
+
+#cvv_anchor { outline: none; }
+
+.questionMark { border-style: none;	cursor: pointer; margin-left: 5px; }
+
+
+
+/********************************************************************
+  System Styles
+********************************************************************/
+
+.header_wrapper { width: 882px; margin: auto; }
+
+.header_wrapper h1 { font: bold 30px/30px Arial, Helvetica, sans-serif; margin: 30px 0; color: #7296BB; }
+
+.content { width: 882px; margin: 30px auto; }
+
+.footer_wrapper { background: #7296BB; color: #FFF; width: 858px; margin: auto; margin-bottom: 50px; font: 12px/15px Arial, Helvetica, sans-serif; padding: 12px; }
+
+.search_box_home { width: 664px; border: 1px solid #EAEAEA; padding: 20px; margin: 0 0 35px; text-align: center; background: url(/dashboard/images/search_bg.jpg) no-repeat 1px 1px; }
+
+.big_number_wrapper { margin: 0 auto 0; width: 494px; height: 65px; *height: 55px; }
+
+.big_number_div { float: left; padding: 10px; }
+
+.big_number { font: bold 21px/21px Arial, Helvetica, sans-serif; color: #FFF; background: #A4BFDD; padding: 2px 6px; margin-right: 5px; }
+
+.big_number_desc { font: bold 16px/16px Arial, Helvetica, sans-serif; color: #A4BFDD; }
+
+h4 { font: bold 15px/15px Arial, Helvetica, sans-serif; }
+
+.content_indent { width: 80%; margin: 30px auto 0; padding-bottom: 10px; }
+
+.page_header_system { font: 21px/20px Arial, Helvetica, sans-serif; color: #85a9d1; font-weight: bold; margin-bottom: 
+20px; margin-left: 40px; display: block; }
+
+.login_box { border:1px solid #E3E3E3; padding: 20px 55px; width: 500px; margin: auto; margin-bottom: 35px; }
+
+.input_login { width: 230px; height: 16px; font-size: 13px !important; line-height: 20px; padding: 1px; }
+
+select { color:#666; font: 11px/14px Verdana, Geneva, sans-serif; }
+
+input[type="text"], textarea { color:#666; font: 11px/14px Verdana, Geneva, sans-serif; }
+
+.textarea_style { width: 300px; height: 100px; }
+
+.www_bigger { font-size: 12px; color: #7296BB; }
+
+.box_no_results { border: 1px dotted #CCC; padding: 15px; text-align: center; margin-top: 30px; clear: both; display: block; }
+
+.box_thank_you { text-align:center; margin:100px auto 155px; width: 500px; }
+
+.box_thank_you h4 { font: bold 15px/16px Arial, Helvetica, sans-serif; color: #BD0D0D; }
+
+.box_thank_you h5 { font: bold 12px/16px Arial, Helvetica, sans-serif; color: #336699; }
+
+.table_no_border td { border: none !important; padding: 0 !important; }
+
+
+
+/********************************************************************
+  Member Styles
+********************************************************************/
+
+select.hosting_upgrade, select.hosting_product, select.generic_product, select.generic_upgrade { width: 100%; }
+
+.pagigaton_top { margin-bottom: 20px; text-align: right; }
+
+.pagigaton_bottom { margin-top: 20px; text-align: right; }
+
+.pagigaton_top select, .pagigaton_bottom select { font: 12px Arial !important; height: 22px; }
+
+.pagigaton_top span, .pagigaton_bottom span { position: relative; right: 3px; *top: -3px; }
+
+.button_search, .button_search:link, .button_search:visited { display: block; width: 75px; height: 22px; background: url(/dashboard/images/search_icon.gif) no-repeat; border: 0; }
+
+.button_transfer, .button_transfer:link, .button_transfer:visited { display: block; width: 90px; height: 22px; background: url(/dashboard/images/transfer_icon.gif) no-repeat; border: 0; }
+
+.button_renew, .button_renew:link, .button_renew:visited { display: block; width: 75px; height: 22px; background: url(/dashboard/images/renew_icon.gif) no-repeat; border: 0; }
+
+.button_search:hover, .button_transfer:hover, .button_renew:hover { background-position: bottom; cursor: pointer; }
+
+.inv { display: none; }
+
+.payment_type { float: left; margin-right: 10px; }
+
+.payment_type input { position: relative; top: -7px; }
+
+.select_td { padding-right: 5px; }
+
+.select_td select { color:#666; font: 13px/20px Verdana, Geneva, sans-serif; height: 22px; }
+
+.search_box { width: 664px; padding: 20px; border: 1px solid #EAEAEA; margin: 0 0 15px; text-align: center; background: url(/dashboard/images/search_bg2.jpg) no-repeat 1px 1px; }
+
+.search_box_member { padding: 20px; border: 1px solid #EAEAEA; margin: 0 0 15px; text-align: center; }
+
+.search_box input[type="text"], .search_box_home input[type="text"], .select_td input[type="text"], .search_box_member input[type="text"] { color:#666; font: 13px/20px Verdana, Geneva, sans-serif; }
+
+.search_box_top { display: block; float: left; height: 45px; }
+
+.search_input { float:left; height: 16px; width: 170px; font: 12px Arial !important; }
+
+.search_submit { display: block; width: 25px; height: 22px; background: url(/dashboard/images/button_ok.gif) no-repeat; border: 0; float:left; margin-left: 5px; }
+
+.search_submit:hover { background-position: bottom; cursor: pointer; }
+
+.table_checkboxes { margin-top: 25px; position: relative; left: 14px; }
+
+.table_checkboxes td { text-align: left; width: 102px; padding-bottom: 7px; }
+
+.search_title { display:block; margin-bottom: 15px; margin-top: -5px; font-weight: normal; }
+
+.email_msg_body { border:1px solid #DDD; margin-top: 25px; margin-bottom:35px; padding:15px 20px; }
+
+div.card_type { margin-right: 8px; float: left; }
+
+div.card_type input { position: relative; top: -6px; }
+
+div.card_type label { margin-left: -2px; }
+
+.thankyou_box { padding: 20px; border: 1px dotted #CCC; margin-top: 40px; text-align: center; }
+
+.card_number { position:relative; top: -7px; margin-left: 7px; }
+
+.terms_box { display: block; padding: 20px; background: #FFF; border: 1px dotted #CCC; margin-bottom: 10px; }
+
+h5 { font-size: 15px; color: #555; font-family: Arial, Helvetica, sans-serif; margin: 0 0 10px 0; padding: 0; font-weight: bold; }
+
+a:link, a:visited { color: #6A88A6; }
+
+a:hover {
+
+}
+
+img, a img {
+	border: 20;
+}
+
+.img_zoom { margin-right: 6px; position: relative; top: 1px; }
+
+.tip_box { padding: 10px 15px; background: #FDFFC0; border: 1px dotted #999; color: #666; margin-bottom: 15px; }
+
+strong { font-weight: bold !important; }
+
+.td_order_ASC { background: #A4BFDD url(/dashboard/images/arrow_white_down.png) right 11px no-repeat !important; }
+
+.td_order_DESC { background: #A4BFDD url(/dashboard/images/arrow_white_up.png) right 11px no-repeat !important; }
+
+td.first, th.first { border-left: none !important; }
+
+table.member_maintable { width: 882px; margin: 0 auto; }
+
+.link_number:link, .link_number:visited { font-weight: bold; text-decoration: none; color: #666; }
+
+.link_number:hover { text-decoration: underline; }
+
+.link_delete, .link_delete:visited { text-decoration: none; color: #BD0D0D !important; padding-left: 11px; background: url(/dashboard/images/icon_delete.png) no-repeat 0px 4px; }
+
+.link_delete:hover { text-decoration: underline; }
+
+.main_column1 { vertical-align:top !important; width:200px; padding-left: 15px; text-align: left !important; }
+
+.main_column1 * { font-family: Arial, Helvetica, sans-serif !important; text-align: left !important; }
+
+.main_column2 { width:27px; display: block; vertical-align:top !important; }
+
+.main_column3 { vertical-align:top; width:625px; padding-right: 15px; vertical-align:top !important; text-align: left 
+!important; }
+
+.member_left_nav { width: 200px; }
+
+table.member_left_table td { border-bottom: 1px solid #74a2d4; padding: 0; margin: 0; }
+
+table.member_left_table td a, table.member_left_table td a:visited { padding: 7px; background: #b4d1f3; color: #426a93; 
+display: block; text-decoration: none; font-weight: bold; text-indent: 15px; }
+
+table.member_left_table td a:hover { background: #74A2D4; color: #FFF; }
+
+.title_th { background: #85A9D1 url(/dashboard/images/top_blue_rounded.png) top no-repeat; _background: #85A9D1; 
+_background-image: none; height: 30px; text-align: left; font-weight: bold; text-indent: 20px; font-size: 13px; color: 
+#FFF; text-decoration: none; }
+
+.title_th a:link, .title_th a:visited { font-weight: bold; text-indent: 20px; font-size: 13px; color: #426A93; 
+text-decoration: none; }
+
+.title_th a:hover { text-decoration: underline; }
+
+.top_navigation { background: #4D83D9; }
+
+.my_credit { background: url(/dashboard/images/dolar_sign.png) no-repeat; display:block; height:16px; padding-left:18px; margin-left:12px; }
+
+.credit_price:link, .credit_price:visited { color: #BD0D0D !important; font-weight: bold; text-decoration: none; }
+
+.credit_price:hover { text-decoration: underline; }
+
+.credit_price2 { color: #BD0D0D; font-weight: bold; text-decoration: none; }
+
+.gray_td_content { background: #DADADA; padding: 3px 15px; }
+
+.gray_table_inside { width: 177px; margin-top: 11px; margin-left: 1px; }
+
+table.member_left_table_gray td.main_gray_td { padding: 0; margin: 0; background: #ebebeb; padding: 11px; 
+padding-bottom: 15px; }
+
+.list_gray { margin: 10px 16px 5px; padding: 0; }
+
+.list_gray li { list-style: none; }
+
+.list_gray li a, .list_gray li a:visited { background: url(/dashboard/images/blue_arrow.png) no-repeat 0px 5px; 
+padding-left: 10px; color: #426A93; font-weight: bold; padding-bottom: 3px; display: block; text-decoration: none; }
+
+.list_gray li a:hover { color: #183c60; background-position: 2px 5px; text-decoration: underline; }
+
+.link_style1:link, .link_style1:visited { color: #6A88A6 !important; text-decoration: none; }
+
+.link_style1:hover { text-decoration: underline; }
+
+.link_style2, .link_style2:visited { color: #707070 !important; text-decoration: none; }
+
+.link_style2:hover { text-decoration: underline; }
+
+.link_style3:hover { text-decoration: underline; }
+
+.page_header { font: 21px/20px Arial, Helvetica, sans-serif; color: #85a9d1; font-weight: bold; margin-bottom: 20px; 
+display: block; }
+
+.page_sub_header { font: bold 16px/15px Arial, Helvetica, sans-serif; color: #555; margin-bottom: 20px; text-align: center; display: block; padding: 10px 15px; background: #FDFFC0; border: 1px dotted #999; }
+
+.top_box { margin-bottom: 20px; text-align: center; display: block; padding: 10px 15px; border: 1px dotted #999; font-weight: bold; background: #FDFFC0; }
+
+.table_style1 { margin-bottom: 20px; }
+
+.table_style1 th { background: #A4BFDD; color: #FFF; text-align: left; padding: 5px 5px 5px 9px; border-left: 1px solid #93ACC6; }
+
+.table_style1 th a, .table_style1 th a:visited { color: #FFF; text-decoration: none; }
+
+.table_style1 th a:hover { text-decoration: underline; }
+
+.table_style1 td { padding: 7px 9px; border-left: 1px solid #e5e5e5; border-bottom: 1px dotted #E5E5E5; text-align: left; }
+
+.td_style1 {
+	background: ##FDFFC0;
+	padding: 10px 9px !important;
+	font-weight: bold;
+	border-bottom: 1px solid #FFF !important;
+	text-indent: 1px;
+	font-size: 15px;
+	border-left: none !important;
+	font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.td_style1 a:link, .td_style1 a:visited { color: #555; text-decoration: none; font-size: 15px; font-weight: bold; 
+font-family: Arial, Helvetica, sans-serif; }
+
+.tr_highlight { background: #FFF; }
+
+.tr_highlight:hover { background: #F1F1F1; }
+
+.button_form, .button_form:visited { background: url(/dashboard/images/btn_bg.png) no-repeat; border: 0 none; color: #545454 !important; cursor: pointer; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; height: 25px; line-height: 24px; margin-bottom: 10px; text-align: center; width: 142px; text-decoration: none; }
+
+.button_form_small, .button_form_small:visited { background: url(/dashboard/images/btn_bg_small.png) no-repeat; border: 0 none; color: #545454 !important; cursor: pointer; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; height: 25px; line-height: 24px; margin-bottom: 10px; text-align: center; width: 102px; text-decoration: none; }
+
+.button_form_big, .button_form_big:visited { background: url(/dashboard/images/btn_bg_big.png) no-repeat; border: 0 none; color: #545454 !important; cursor: pointer; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; height: 25px; line-height: 24px; margin-bottom: 10px; text-align: center; width: 180px; text-decoration: none; }
+
+.button_form:hover, .button_form_small:hover, .button_form_big:hover {
+	background-position: bottom;
+	text-align: right;
+}
+
+.text_style1 { color: #BD0D0D; }
+
+.text_style2 { color: #6A88A6; font-weight: normal; }
+
+.text_style3 { font: 12px/12px Arial; font-weight: bold; display: block; margin-bottom: -10px; }
+
+.text_style4 { color: #BD0D0D; font-weight: bold; margin-bottom: 20px; }
+
+.text_style5 { color: #666; }
+
+.td_color1 { background: #FFF; }
+
+.td_color2 { background: #F1F1F1; }
+
+.table_style2
+{ 
+	margin-bottom: 10px; 
+	caption-side:bottom;
+}
+
+.table_style2 td 
+{
+	padding: 9px;
+	border-bottom: 1px dotted #E5E5E5;
+	border-left: 1px dotted #E5E5E5;
+	text-align: left;
+}
+
+.table_style2 th { background: #A4BFDD; color: #FFF; text-align: left; padding: 5px 5px 5px 9px; border-left: 1px solid 
+#93ACC6; font-weight: normal; }
+
+.table_style2 th a:hover { color: #183C60; }
+
+.table_style3 { }
+
+.table_style3 td { padding: 9px; border: none !important; text-align: left; padding: 0px; }
+
+.status, .status_green { color: #093; }
+
+.status_red { color: #BD0D0D; }
+
+.status_registered { color: #093; }
+
+.status_renewal_due { color: #BD0D0D; }
+
+.status_other { color: #BD0D0D; }
+
+.highlight_error { background: #BD0D0D; color: #FFF; }
+
+.status_sent { color: #093; }
+
+.status_not_sent { color: #BD0D0D; }
+
+
+/* additional integration changes */
+.table_style2 caption
+{
+	border:1px dotted #E5E5E5;
+	margin:5px;
+	margin-left:4px;
+	margin-top:0;
+	caption-side:bottom;
+}
+
+table.admin_table{ width: 200px; margin: 20px 0 0px; padding: 0px; }
+table.admin_table td { border-bottom: 1px solid #BFA987; padding: 0; margin: 0; }
+
+table.admin_table td a, table.admin_table td a:visited { padding: 7px; background: #FFD79A; color: #426a93; display: 
+block; text-decoration: none; font-weight: bold; text-indent: 15px; }
+
+table.admin_table td a:hover { background: #FFD79A; color: #FFF; }
+table.admin_table th { background: #A67832; color: #FFF; }
+
