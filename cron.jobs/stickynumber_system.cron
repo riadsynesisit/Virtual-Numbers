@@ -1,0 +1,71 @@
+MAILTO=""
+# --- BOF ---
+2 0 * * *	root	/var/www/html/stickynumber/cron.jobs/daily.7day_did_expiry.sh
+#  ... each day, wipe out any user DID that hasn't been called in the week since it was first set up
+#
+4 0 * * *	root	/var/www/html/stickynumber/cron.jobs/daily.3month_did_expiry.sh
+#  ... each day, wipe out any user DID that hasn't been called in the last 3 months
+#
+@daily	root	/var/www/html/stickynumber/cron.jobs/daily.root_commands_email.sh
+#  ... each day, send a list of commands that were run as root in an e-mail
+#
+6 0 * * *	root	/var/www/html/stickynumber/cron.jobs/daily.activation_reminder.sh
+#  ... each day, send reminder emails to numbers not yet activated until they are either activate or removed
+#
+8 0 * * *	root	/var/www/html/stickynumber/cron.jobs/daily.expiringin30days.sh
+#  ... each day, send reminder emails to numbers about to expire in 30 days unless called.
+#
+10 0 * * *	root	/var/www/html/stickynumber/cron.jobs/daily.7day_voicemail_delete.sh
+#  ... each day, wipe out voice messages which are older than 7 days but were not explicitly saved by the user
+#
+*/30 * * * *	root	/var/www/html/stickynumber/cron.jobs/daily.worldpay_captures.sh
+#  ... every thirty minutes, Auto capture worldpay pending auto payments from pervious day
+#
+14 0 * * *	root	/var/www/html/stickynumber/cron.jobs/daily.1month_didww_expiry.sh
+#  ... each day, Delete DIDWW DIDs that were expired 31 days ago and were not renewed.
+#
+16 0 * * *	root	/var/www/html/stickynumber/cron.jobs/daily.pp_autorenewal.sh
+#  ... each day, Run the PayPal auto renewal process for DIDs expiring in 3 days or less
+
+17 0 * * *	root	/var/www/html/stickynumber/cron.jobs/daily.simplepay_autorenewal.sh
+#  ... each day, Run the SimplePay auto renewal process for DIDs expiring in 3 days or equal
+
+#
+18 0 * * *	root	/var/www/html/stickynumber/cron.jobs/daily.populate_did_cities.sh
+#  ... each day, Run the DID Cities and Countries population task
+#
+20 0 * * *	root	/var/www/html/stickynumber/cron.jobs/daily.monthly_renew_of_annual_plans.sh
+#  ... each day, Run the DID Cities and Countries population task
+#
+22 0 * * *	root	/var/www/html/stickynumber/cron.jobs/daily.paid_dids_expired_email.sh
+#  ... each day, Run the DIDs expired email notices
+#
+24 0 * * *	root	/var/www/html/stickynumber/cron.jobs/daily.dids_expiring_notice.sh
+#  ... each day, Run the DIDs expiring in 2 days notices
+#
+30 0 * * *	root	/var/www/html/stickynumber/cron.jobs/daily.daily_stats.sh
+#  ... each day at 01:30 AM, Run and send daily system stats email
+#
+*/5 * * * *	root	/var/www/html/stickynumber/cron.jobs/minute.check_for_did_reorder_flag.sh
+#	 ... every hour(minute), check to see if we need to order more DIDs for service.
+#
+0 * * * *	root	/var/www/html/stickynumber/cron.jobs/minute.check_for_087did_reorder.sh
+#	 ... every minute, check to see if we need to order more DIDs for service.
+#
+#
+*/30 * * * *	root	/var/www/html/stickynumber/cron.jobs/no_calls.sh
+#	 ... every thirty minutes, check to see if there were any calls on the server.
+#
+*/10 * * * *	root	/var/www/html/stickynumber/cron.jobs/minute.remove_unassigned_dids.sh >/dev/null 2>&1
+#	 ... every 10 minute, check and remove dids that were not used for 24 hours after getting from Mag Tel
+#
+*/1 * * * *	root	/var/www/html/stickynumber/cron.jobs/minute.peak_volume.sh
+#	 ... every minute, check and update daily_system_stats table for peak volumes
+#
+*/10 * * * *	root	/var/www/html/stickynumber/cron.jobs/minute.lapsed_minutes.sh
+#	 ... every 10 minute, check and lapse the unused minutes in each DID
+#
+32 * * * *	root	/var/www/html/stickynumber/cron.jobs/hourly.worldpay_refunds.sh
+#	 ... every hour on 32nd minute, check to see if there were any worldpay refunds to be made.
+#
+# --- EOF ---
