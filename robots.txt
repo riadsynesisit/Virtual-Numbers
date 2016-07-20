@@ -1,0 +1,4 @@
+User-agent:*
+Disallow: /dashboard/
+
+Sitemap: https://www.stickynumber.com/sitemap.xml
